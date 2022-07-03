@@ -1,0 +1,698 @@
+table {
+  border-collapse: collapse;
+}
+
+table.table caption {
+  font-size: 2rem;
+  text-align: center;
+  caption-side: top;
+}
+
+
+table.table tr td {
+  vertical-align: middle;
+}
+
+
+
+.xl1519096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  white-space: nowrap;
+}
+
+.xl6319096 td{
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  min-width: 32px;
+  color: #fff;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid;
+  background: #006968;
+  white-space: nowrap;
+}
+
+.xl6419096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid #70AD47;
+  background: #C6E0B4;
+  white-space: nowrap;
+}
+
+.xl6519096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  white-space: nowrap;
+}
+
+.xl6619096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #3A5D25;
+  white-space: nowrap;
+}
+
+.xl6719096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #456D2D;
+  white-space: nowrap;
+}
+
+.xl6819096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #538236;
+  white-space: nowrap;
+}
+
+.xl6919096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid #70AD47;
+  background: #C6E0B4;
+  white-space: normal;
+}
+
+.xl7019096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #5E943C;
+  white-space: nowrap;
+}
+
+.xl7119096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #75B74D;
+  white-space: nowrap;
+}
+
+.xl7219096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #9ECC82;
+  white-space: nowrap;
+}
+
+.xl7319096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #70AD47;
+  background: #AFD597;
+  white-space: nowrap;
+}
+
+.xl7419096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border-top: none;
+  border-right: .5pt solid #70AD47;
+  border-bottom: .5pt solid #70AD47;
+  border-left: .5pt solid #70AD47;
+  background: #C6E0B4;
+  white-space: nowrap;
+}
+
+.xl7519096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border-top: none;
+  border-right: .5pt solid #70AD47;
+  border-bottom: .5pt solid #70AD47;
+  border-left: .5pt solid #70AD47;
+  background: #375623;
+  white-space: nowrap;
+}
+
+.xl7619096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border-top: none;
+  border-right: .5pt solid #70AD47;
+  border-bottom: .5pt solid #70AD47;
+  border-left: .5pt solid #70AD47;
+  white-space: nowrap;
+}
+
+.xl7719096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border-top: .5pt solid #70AD47;
+  border-right: .5pt solid #70AD47;
+  border-bottom: none;
+  border-left: .5pt solid #70AD47;
+  background: #C6E0B4;
+  white-space: nowrap;
+}
+
+.xl7819096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border-top: .5pt solid #70AD47;
+  border-right: .5pt solid #70AD47;
+  border-bottom: none;
+  border-left: .5pt solid #70AD47;
+  white-space: nowrap;
+}
+
+.xl7919096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border-top: .5pt solid #70AD47;
+  border-right: .5pt solid #70AD47;
+  border-bottom: none;
+  border-left: .5pt solid #70AD47;
+  background: #D7EACC;
+  white-space: nowrap;
+}
+
+.xl8019096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid #FFC000;
+  background: #FFE699;
+  white-space: normal;
+}
+
+.xl8119096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid #FFC000;
+  background: #FFE699;
+  white-space: nowrap;
+}
+
+.xl8219096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  white-space: nowrap;
+}
+
+.xl8319096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  background: #FFC000;
+  white-space: nowrap;
+}
+
+.xl8419096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  background: #FFD54F;
+  white-space: nowrap;
+}
+
+.xl8519096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  background: #FFDC6D;
+  white-space: nowrap;
+}
+
+.xl8619096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  background: #FFE48F;
+  white-space: nowrap;
+}
+
+.xl8719096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  background: #FFE89F;
+  white-space: nowrap;
+}
+
+.xl8819096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #FFC000;
+  background: #FFEFBD;
+  white-space: nowrap;
+}
+
+.xl8919096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border-top: .5pt solid #FFC000;
+  border-right: .5pt solid #FFC000;
+  border-bottom: none;
+  border-left: .5pt solid #FFC000;
+  background: #FFE699;
+  white-space: nowrap;
+}
+
+.xl9019096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border-top: .5pt solid #FFC000;
+  border-right: .5pt solid #FFC000;
+  border-bottom: none;
+  border-left: .5pt solid #FFC000;
+  white-space: nowrap;
+}
+
+.xl9119096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border-top: .5pt solid #FFC000;
+  border-right: .5pt solid #FFC000;
+  border-bottom: none;
+  border-left: .5pt solid #FFC000;
+  background: #FFF4D1;
+  white-space: nowrap;
+}
+
+.xl9219096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid #5B9BD5;
+  background: #BDD7EE;
+  white-space: normal;
+}
+
+.xl9319096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border: .5pt solid #5B9BD5;
+  background: #BDD7EE;
+  white-space: nowrap;
+}
+
+.xl9419096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  white-space: nowrap;
+}
+
+.xl9519096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  background: #88B6E0;
+  white-space: nowrap;
+}
+
+.xl9619096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  background: #A3C7E7;
+  white-space: nowrap;
+}
+
+.xl9719096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  background: #C8DDF0;
+  white-space: nowrap;
+}
+
+.xl9819096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  background: #DEEBF6;
+  white-space: nowrap;
+}
+
+.xl9919096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  background: #73A9DB;
+  white-space: nowrap;
+}
+
+.xl10019096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: general;
+  border: .5pt solid #5B9BD5;
+  background: #88BFE4;
+  white-space: nowrap;
+}
+
+.xl10119096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border-top: .5pt solid #70AD47;
+  border-right: .5pt solid #70AD47;
+  border-bottom: none;
+  border-left: .5pt solid #70AD47;
+  background: #C6E0B4;
+  white-space: normal;
+}
+
+.xl10219096 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  border-top: .5pt solid #FFC000;
+  border-right: .5pt solid #FFC000;
+  border-bottom: none;
+  border-left: .5pt solid #FFC000;
+  background: #FFE699;
+  white-space: normal;
+}
