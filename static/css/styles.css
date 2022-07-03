@@ -324,7 +324,7 @@ select {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  background-image: url('../static/images/down-arrow.png');
+  background-image: url('../images/down-arrow.png');
   background-position: 96% 50%;
   background-repeat: no-repeat;
   outline: none;
@@ -709,6 +709,10 @@ screen and (-ms-high-contrast: none) {
   max-width: 87.5rem;
 }
 
+.navbar-custom .navbar-brand.logo-image img {
+  height: 3rem;
+}
+
 .navbar-custom .navbar-brand.logo-text {
   font: 700 2rem/1.5rem "Open Sans", sans-serif;
   color: #fff;
@@ -887,9 +891,6 @@ screen and (-ms-high-contrast: none) {
   height: 2.25rem;
 }
 
-/* .image-container .img-wrapper .img-fluid {
-  opacity: 0.7;
-} */
 
 /*************************/
 /*     05. Customers     */
@@ -1124,6 +1125,10 @@ screen and (-ms-high-contrast: none) {
 /***********************/
 /*     09. Details     */
 /***********************/
+#problem {
+  background-color: #f3f7fd;
+}
+
 .basic-1 {
   padding-top: 7.5rem;
   padding-bottom: 8rem;
@@ -1538,7 +1543,7 @@ a.back-to-top {
   width: 2.625rem;
   height: 2.625rem;
   border-radius: 1.875rem;
-  background: #006968 url("../static/images/up-arrow.png") no-repeat center 47%;
+  background: #006968 url("../images/up-arrow.png") no-repeat center 47%;
   background-size: 1.125rem 1.125rem;
   text-indent: -9999px;
 }
