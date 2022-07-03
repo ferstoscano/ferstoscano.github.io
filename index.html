@@ -57,11 +57,41 @@
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#problem">PROBLEMA</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#goals">OBJETIVOS Y METAS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" href="#stages">FASES</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle page-scroll" href="#stages" id="navbarDropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">FASES</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item popup-with-move-anim" href="#details-fase-1">
+                <span class="item-text">INICIAL</span>
+              </a>
+              <div class="dropdown-items-divide-hr"></div>
+              <a class="dropdown-item popup-with-move-anim" href="#details-fase-2">
+                <span class="item-text">DESARROLLO</span>
+              </a>
+              <div class="dropdown-items-divide-hr"></div>
+              <a class="dropdown-item popup-with-move-anim" href="#details-fase-3">
+                <span class="item-text">CONSECUCION</span>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle page-scroll" href="#about-us" id="navbarDropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">SOBRE NOSOTROS</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item popup-with-move-anim" href="#details-about-us">
+                <span class="item-text">¿QUIENES SOMOS?</span>
+              </a>
+              <div class="dropdown-items-divide-hr"></div>
+              <a class="dropdown-item page-scroll" href="#technologies">
+                <span class="item-text">TECNOLOGIAS</span>
+              </a>
+            </div>
           </li>
 
           <!-- Dropdown Menu -->
@@ -71,7 +101,8 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
               <div class="dropdown-items-divide-hr"></div>
-              <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
+              <a class="dropdown-item popup-with-move-anim" href="#details-fase-3"><span
+                  class="item-text">CONSECUCION</span></a>
               <div class="dropdown-items-divide-hr"></div>
               <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
             </div>
@@ -193,7 +224,7 @@
                 <i class="fas fa-square"></i>
                 <div class="media-body">
                   Actualmente la mitad del territorio mexicano se encuentra en amenaza por sequía. La zona metropolitana
-                  de Guadalajra forma parte del problema , el año pasado sufriendo la peor crisis, esto por la alta
+                  de Guadalajara forma parte del problema , el año pasado sufriendo la peor crisis, esto por la alta
                   demanda, el mal uso, la contaminación, el cambio climático que provoca altas temperaturas y bajas
                   temporadas de lluvia.
                 </div>
@@ -341,7 +372,7 @@
 
 
 
-  <!-- Features -->
+  <!-- Stages -->
   <div id="stages" class="tabs">
     <div class="container">
       <div class="row">
@@ -489,7 +520,7 @@
       </div> <!-- end of row -->
     </div> <!-- end of container -->
   </div> <!-- end of tabs -->
-  <!-- end of features -->
+  <!-- end of stages -->
 
 
   <!-- Details tabs -->
@@ -521,9 +552,14 @@
   <!-- end of details fase-3 -->
   <!-- end of details lightboxes -->
 
-  <!-- Testimonials -->
-  <div class="slider-2">
+  <!-- About Us -->
+  <div id="about-us" class="cards-1 slider-2 basic-1">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="h2-heading">Sobre nosotros</h2>
+        </div> <!-- end of col -->
+      </div> <!-- end of row -->
       <div class="row">
         <div class="col-lg-12">
 
@@ -535,7 +571,7 @@
                 <!-- Slide -->
                 <div class="swiper-slide">
                   <div class="image-wrapper">
-                    <img class="img-fluid" src="static/images/testimonial-1.jpg" alt="alternative">
+                    <img class="img-fluid" src="static/images/about-chief.jpg" alt="Directora">
                   </div> <!-- end of image-wrapper -->
                   <div class="text-wrapper">
                     <div class="testimonial-text">
@@ -550,7 +586,7 @@
                 <!-- Slide -->
                 <div class="swiper-slide">
                   <div class="image-wrapper">
-                    <img class="img-fluid" src="static/images/testimonial-2.jpg" alt="alternative">
+                    <img class="img-fluid" src="static/images/about-internal.jpg" alt="Voluntario">
                   </div> <!-- end of image-wrapper -->
                   <div class="text-wrapper">
                     <div class="testimonial-text">Persona con capacidad de liderazgo y responsable. Programador. Experto
@@ -563,26 +599,11 @@
                 <!-- Slide -->
                 <div class="swiper-slide">
                   <div class="image-wrapper">
-                    <img class="img-fluid" src="static/images/testimonial-3.jpg" alt="alternative">
+                    <img class="img-fluid" src="static/images/about-participant.jpg" alt="Participante">
                   </div> <!-- end of image-wrapper -->
                   <div class="text-wrapper">
                     <div class="testimonial-text">Familias. Personas responsables. </div>
                     <div class="testimonial-author">Habitantes de la colonia - Participantes</div>
-                  </div> <!-- end of text-wrapper -->
-                </div> <!-- end of swiper-slide -->
-                <!-- end of slide -->
-
-                <!-- Slide -->
-                <div class="swiper-slide">
-                  <div class="image-wrapper">
-                    <img class="img-fluid" src="static/images/testimonial-4.jpg" alt="alternative">
-                  </div> <!-- end of image-wrapper -->
-                  <div class="text-wrapper">
-                    <div class="testimonial-text">Tivo is one of the greatest marketing automation apps out there. I
-                      especially love the Reporting Tools module because it gives me such a great amount of information
-                      based on little amounts of input gathered in just few weeks of light weight usage. Recommended!
-                    </div>
-                    <div class="testimonial-author">Ronda Louis - Online Marketer</div>
                   </div> <!-- end of text-wrapper -->
                 </div> <!-- end of swiper-slide -->
                 <!-- end of slide -->
@@ -597,96 +618,66 @@
             </div> <!-- end of swiper-container -->
           </div> <!-- end of slider-container -->
           <!-- end of text slider -->
+          <a class="btn-solid-reg popup-with-move-anim" href="#details-about-us">DETALLES</a>
 
         </div> <!-- end of col -->
       </div> <!-- end of row -->
     </div> <!-- end of container -->
   </div> <!-- end of slider-2 -->
-  <!-- end of testimonials -->
+  <!-- end of about us -->
 
+  <!-- Details org -->
+  <div id="details-about-us" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="container">
+      <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+      <img class="img-fluid" src="static/images/details-org-chart.svg" alt="alternative">
+    </div> <!-- end of container -->
+  </div> <!-- end of lightbox-basic -->
+  <!-- end of details or -->
 
-  <!-- Newsletter -->
-  <div class="form">
+  <!-- Technologies -->
+  <div id="technologies" class="cards-1 slider-1">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="text-container">
-            <div class="above-heading">TECNOLOGIAS</div>
-            <h2>Tecnologias emergentes</h2>
-
-            <!-- Newsletter Form -->
-            <form id="newsletterForm" data-toggle="validator" data-focus="false">
-              <!-- Image Slider -->
-              <div class="slider-container">
-                <div class="swiper-container image-slider">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img class="img-fluid" src="static/images/tech-canva.png" alt="Canva logo">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="img-fluid" src="static/images/tech-whatsapp.png" alt="Whatsapp logo">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="img-fluid" src="static/images/tech-jira.png" alt="Jira logo">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="img-fluid" src="static/images/tech-discord.png" alt="Discord logo">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="img-fluid" src="static/images/tech-gcloud.png" alt="Google Cloud logo">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="img-fluid" src="static/images/tech-freepik.png" alt="Freepik logo">
-                    </div>
-                  </div> <!-- end of swiper-wrapper -->
-                </div> <!-- end of swiper container -->
-              </div> <!-- end of slider-container -->
-              <!-- end of image slider -->
-            </form>
-            <!-- end of newsletter form -->
-
-          </div> <!-- end of text-container -->
+          <h3 class="h2-heading">Tecnologias emergentes</h3>
         </div> <!-- end of col -->
       </div> <!-- end of row -->
       <div class="row">
         <div class="col-lg-12">
-          <div class="icon-container">
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x"></i>
-              </a>
-            </span>
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x"></i>
-              </a>
-            </span>
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-              </a>
-            </span>
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x"></i>
-              </a>
-            </span>
-            <span class="fa-stack">
-              <a href="#your-link">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-              </a>
-            </span>
-          </div> <!-- end of col -->
+
+          <!-- Image Slider -->
+          <div class="slider-container">
+            <div class="swiper-container image-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="static/images/tech-canva.png" alt="Canva logo">
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="static/images/tech-whatsapp.png" alt="Whatsapp logo">
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="static/images/tech-jira.png" alt="Jira logo">
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="static/images/tech-discord.png" alt="Discord logo">
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="static/images/tech-gcloud.png" alt="Google Cloud logo">
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="static/images/tech-freepik.png" alt="Freepik logo">
+                </div>
+              </div> <!-- end of swiper-wrapper -->
+            </div> <!-- end of swiper container -->
+          </div> <!-- end of slider-container -->
+          <!-- end of image slider -->
+
         </div> <!-- end of col -->
       </div> <!-- end of row -->
     </div> <!-- end of container -->
-  </div> <!-- end of form -->
-  <!-- end of newsletter -->
+  </div> <!-- end of slider-2 -->
+  <!-- end of Technologies -->
 
 
   <!-- Footer -->
@@ -709,45 +700,77 @@
       <div class="row">
         <div class="col-md-4">
           <div class="footer-col first">
-            <h4>About Tivo</h4>
-            <p class="p-small">We're passionate about designing and developing one of the best marketing apps in the
-              market</p>
+            <h4>Redes sociales</h4>
+            <ul class="list-unstyled li-space-lg p-small">
+              <div class="icon-container">
+                <li class="fa-stack">
+                  <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-facebook-f fa-stack-1x"></i>
+                  </a>
+                </li>
+                <li class="fa-stack">
+                  <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-twitter fa-stack-1x"></i>
+                  </a>
+                </li>
+                <li class="fa-stack">
+                  <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                  </a>
+                </li>
+                <li class="fa-stack">
+                  <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-instagram fa-stack-1x"></i>
+                  </a>
+                </li>
+                <li class="fa-stack">
+                  <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                  </a>
+                </li>
+              </div> <!-- end of col -->
+            </ul>
           </div>
         </div> <!-- end of col -->
+
         <div class="col-md-4">
           <div class="footer-col middle">
             <h4>Important Links</h4>
             <ul class="list-unstyled li-space-lg p-small">
               <li class="media">
                 <i class="fas fa-square"></i>
-                <div class="media-body">Our business partners <a class="white" href="#your-link">startupguide.com</a>
+                <div class="media-body">
+                  <a class="white" href="terms-conditions.html">Terminos & condiciones</a>
                 </div>
               </li>
               <li class="media">
                 <i class="fas fa-square"></i>
-                <div class="media-body">Read our <a class="white" href="terms-conditions.html">Terms & Conditions</a>,
-                  <a class="white" href="privacy-policy.html">Privacy Policy</a>
+                <div class="media-body">
+                  <a class="white" href="privacy-policy.html">Politicas de privacidad</a>
                 </div>
               </li>
             </ul>
           </div>
         </div> <!-- end of col -->
+
         <div class="col-md-4">
           <div class="footer-col last">
-            <h4>Contact</h4>
+            <h4>Contacto</h4>
             <ul class="list-unstyled li-space-lg p-small">
               <li class="media">
                 <i class="fas fa-map-marker-alt"></i>
-                <div class="media-body">22 Innovative, San Francisco, CA 94043, US</div>
+                <div class="media-body">Guadalajara, Jalisco</div>
               </li>
               <li class="media">
                 <i class="fas fa-envelope"></i>
-                <div class="media-body"><a class="white" href="mailto:contact@tivo.com">contact@tivo.com</a> <i
-                    class="fas fa-globe"></i><a class="white" href="#your-link">www.tivo.com</a></div>
+                <div class="media-body">
+                  <a class="white" href="mailto:contact@alanvazquez.com">contact@alanvazquez.me</a>
+                </div>
               </li>
             </ul>
           </div>
         </div> <!-- end of col -->
+
       </div> <!-- end of row -->
     </div> <!-- end of container -->
   </div> <!-- end of footer -->
