@@ -47,10 +47,11 @@
   });
 
   /* Image Slider - Swiper */
-  var imageSlider = new Swiper(".image-slider", {
+    var imageSlider = new Swiper(".image-slider", {
+    allowTouchMove: false,
     autoplay: {
       delay: 2000,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
     loop: true,
     spaceBetween: 30,

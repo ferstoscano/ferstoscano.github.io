@@ -1070,7 +1070,12 @@ screen and (-ms-high-contrast: none) {
 
 .lightbox-basic .list-unstyled .fas {
   color: #6EBAB5;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.625rem;
+}
+.lightbox-basic .list-unstyled .fas.fa-times {
+  color: #EBAA3C;
+  font-size: 0.8rem;
   line-height: 1.625rem;
 }
 
@@ -1621,6 +1626,9 @@ a:hover.back-to-top {
   background-color: #f3f7fd;
 }
 
+li.media .fas {
+  font-size: 1.5rem;
+}
 
 /*****************************/
 /*     17. Media Queries     */
